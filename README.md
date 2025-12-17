@@ -2,7 +2,7 @@
 HR Assistant Bedrock Agent
 This repository contains a Jupyter Notebook (Hr_Assistant-1.ipynb) that demonstrates how to build, deploy, and manage an automated HR Assistant using Amazon Bedrock Agents and AWS Lambda. The agent is designed to help employees interact with HR data, such as checking vacation balances and booking time off, using natural language.
 
-🚀 Features
+# 🚀 Features
 Serverless Architecture: Uses AWS Lambda to execute backend logic and Amazon Bedrock to host the AI agent.
 
 Natural Language Processing: Leverages Foundation Models to understand user intent and parameters.
@@ -13,7 +13,7 @@ Dynamic Action Groups: Features an "Action Group" that allows the agent to call 
 
 Full Lifecycle Management: The notebook covers everything from IAM role creation and resource provisioning to the final cleanup of all AWS assets.
 
-🛠️ Technology Stack
+# 🛠️ Technology Stack
 Amazon Bedrock: For creating and invoking the AI Agent.
 
 AWS Lambda: To run the backend logic and database queries.
@@ -22,7 +22,7 @@ SQLite: A lightweight database used for storing mock employee data.
 
 Boto3: The AWS SDK for Python used to orchestrate the infrastructure.
 
-📋 Prerequisites
+# 📋 Prerequisites
 Before running the notebook, ensure you have:
 
 An AWS Account with appropriate permissions for IAM, Bedrock, and Lambda.
@@ -31,12 +31,12 @@ Model Access enabled in the Amazon Bedrock console (e.g., Anthropic Claude or ot
 
 A Python environment with boto3 installed.
 
-📖 Usage
+# 📖 Usage
 Initialize Environment: The notebook sets up the necessary clients and retrieves your AWS account details.
 
 Database Generation: It creates a local employee_database.db file with 10 mock employees and random vacation history.
 
-Infrastructure Setup:
+#Infrastructure Setup:
 
 Creates IAM execution roles for the Agent and Lambda.
 
